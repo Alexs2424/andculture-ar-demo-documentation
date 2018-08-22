@@ -4,7 +4,7 @@ A repository for the Andculture AR image publication demo. This repository is pu
 
 Summary
 =================
-> The AR Demo App recognizes images placed in the Vuforia Cloud Recognition Database. You can create Image Targets programmatically or through the [online web portal](https://developer.vuforia.com/target-manager).
+> The AR Demo App recognizes images placed in the Vuforia Cloud Recognition Database. You can create [Image Targets programmatically](https://library.vuforia.com/articles/Solution/How-To-Use-the-Vuforia-Web-Services-API.html#How-To-Add-a-Target) or through the [online web portal](https://developer.vuforia.com/target-manager).
 
 Technology Stack
 =================
