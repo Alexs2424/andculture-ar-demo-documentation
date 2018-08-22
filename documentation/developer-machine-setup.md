@@ -3,7 +3,6 @@
 
 Table of Contents
 =================
-* [Windows Setup](#windows-setup)
 * [Mac Setup](#mac-setup)
 * [Setup](#)
 * [Troubleshooting](#troubleshooting)
@@ -12,7 +11,7 @@ Table of Contents
 > The Mac setup is used if you **need to build** and test for iOS. You can also install and use it for Android if it is your preferred platform to work on.
 1. Go to the Mac App Store or [Apple Developer's Website](https://developer.apple.com/xcode/).
     - Download Xcode (it includes to required toolset to run Unity iOS builds)
-2. Continue onto [Normal Setup](#setup)
+2. Continue onto [Normal Setup](#setup).
 
 # Setup
 > These steps are not specific to any machine, you will have to do this on Mac or Windows and is the same process. 
