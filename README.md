@@ -38,15 +38,10 @@ Table Of Contents
 * [Source Control](documentation/source-control.md)
 * [Maintenance](documentation/maintenance.md)
 * [Development Workflow](documentation/development-workflow.md)
-* [Requirements](https://andculture.atlassian.net/projects/[MYAWESOMEPROJECT]/summary)
+* [Requirements](documentation/summary.md)
 * [Project Architecture](documentation/project-architecture.md)
 * [Design Patterns](documentation/design-patterns.md)
 * Slack Channels
   * lab-ar-platform - General project discussion.  All resources on project should be added to this channel. Needs permission from Alex Getty to be joined. 
-* 3rd Party Integration
-  * [Spotify](https://developer.spotify.com/) - This project utilizes the Spotify API to manage user playlists.
-  * [Google](https://developers.google.com/actions/identity/oauth2-code-flow) - This project uses Google as an oAuth provider for account registration
-* [Google Drive](https://drive.google.com/drive/u/1/folders/[IDENTIFIER])
 * External Resources
-  * [CompanyABC DropBox](https://www.dropbox.com/?landing=dbv2) (See `CompanyABC-Dropbox` in 1Password for credentials)
-  * [CompanyABC Approval Process Workflow](https://www.companyabc.com/approval-process-workflow)
+  * [Vuforia Developer Account](https://developer.vuforia.com/) - Ask Von Bock for Andculture Account Credentials
