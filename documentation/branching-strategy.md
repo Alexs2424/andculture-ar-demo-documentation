@@ -1,32 +1,9 @@
-# Branching Strategy
-> Lists the different branches and what their roles are. Also indicates what merging process is to go from feature development all the way through to production.
+# Source Control
+> Unfortunately a lot of bad things happen when you use git with Unity projects. Von Bock and I tried multiple ways to get git repos to work but the way the files are setup, there's no easy solution. 
 
-Table of Contents
-=================
-* [Branches](#branches)
-    * [development](#development)
-    * [working](#working)
-    * [staging](#staging)
-    * [master](#master)
-* [Workflow](#workflow)
+Unity has built in source control underneath the "Collab" Panel. (See Below) ![Collab Panel](images/collab-panel.png) It allows you to commit things to source and collaborate with others but purely through the UI Features. *Note:* There are a lot of aspects in Unity where there aren't controlled by code or traditional ways of interacting with Development tools.
 
-## Branches
+There is a work-around however, you can take all of your C# scripts and put those into a separate github/bitbucket repo. The problem with this is that scripts in Unity do not follow conventional programming concepts in C#. You manipulate the Unity GameObjects with Unity specific functions not traditional C# functions. 
+Whole point being, there's not really any reason to completely separate the scripts from the Unity project in their own repo. 
 
-### development
-> This represents development features for the current sprint.
-
-### working
-> This represents features for the current sprint to be tested by QA.
-
-### staging
-> This represents features that are ready for the client's review.
-
-### master
-> This represents the current production code base.
-
-## Workflow
-1. When a new feature is being developed a new feature branch should be created off of the `development` branch. It should be named using the format: `feature\your-feature-name`.
-2. Once feature branch changes are completed it should be merged into the `development` branch.
-3. Two days before the end of the sprint the `development` branch is merged into the `working` branch.
-4. After QA approves features from the `working` branch it is merged into the `staging` branch.
-5. Production pushes are done on Tuesdays at 5:00 PM EST, so the Tuesday after the client signs off on the `staging` version it can be merged into the `master` branch. 
+With Unity's source control, they do not defaultly support branches (this may change in time).
