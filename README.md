@@ -9,6 +9,7 @@ Summary
 Technology Stack
 =================
 > List the front-end and back-end technologies used in the project.
+
 * Vuforia Cloud Recognition
 * Vuforia Web Services 
 * Unity v2018.2.4
@@ -16,9 +17,10 @@ Technology Stack
 
 Mobile OS Support
 =================
-> Be sure to check out the [requirements section](). For each of the mobile builds you wil need a different build setup. For example, if you would like to run an iOS build you will need a Mac with a specified setup to it. 
+> Be sure to check out the [requirements section](). For each of the mobile builds you wil need a different build setup. For example, if you would like to run an iOS build you will need a Mac with a specified setup to it.
+ 
 * Android 
-* iOS 10 
+* iOS 10 (and later)
 * WebGL
 * Desktop Rendering
 
