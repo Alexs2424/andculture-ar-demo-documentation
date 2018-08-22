@@ -7,10 +7,11 @@ Table of Contents
 * [Mac Setup](#mac-setup)
 * [Troubleshooting](#troubleshooting)
 
-##Overall Setup
+## Overall Setup
 > These steps are not specific to any machine, you will have to do this on Mac or Windows and is the same process. 
 1. Download the most recent version of [Unity](https://store.unity.com/download?ref=personal).
     - Choose the free "personal" version of Unity. (We don't have a professional plan yet)
+2. When going through the Unity installation process, and the prompt comes up for you to choose Component Installation *be sure* to check ["Vuforia Augmented Reality Support"](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html). 
 
 ## Windows Setup
 > Includes the steps to get the project up and running on a windows machine.
