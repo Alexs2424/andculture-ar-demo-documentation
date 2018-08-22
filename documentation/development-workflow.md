@@ -29,6 +29,8 @@ Making Changes
 ==============
 > Includes steps that should be followed as changes are made to the project. If the project has a different process based on where changes are being made, those should be broken out as sub-sections.
 
+1. Before making new changes locally be sure you are up-to-date with commits  
+
 **Example**
 1. Be sure to make new changes in the current sprint feature branch.
 2. When developing a new API endpoint be sure to create integration tests for 75% code coverage.
