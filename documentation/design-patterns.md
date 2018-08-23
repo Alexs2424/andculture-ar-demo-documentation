@@ -20,7 +20,16 @@ You must use them extensively throughout the entire process and these are how yo
 The list object is an example of a prefab. A prefab is a prefabricated object created in the UI, that you can reference in code. The prefab in this case is the UI, with a preset view with various list elements. You can set the text, colors, font, once you instantiate it into the view.  Here's an example: *be sure to have the prefab in the resources folder*    
 `GameObject object = (GameObject)Instantiate(Resources.Load("List"));`    
 ^ The above code would create a new GameObject with the List prefab.  
-![List Prefab Example](images/prefab.png)
+![List Prefab Example](images/list-prefab.png)
 
 ## Image Target UI Creation
-This is the process of what happens when the app finds an Image in its database. The design flow is specific to how this works 
+> There are a couple of ways to create Image Targets and the nice part about the Vuforia API, is it will most likely work with any tech stack you pick. 
+
+If you are testing and getting acquainted with Vuforia, make sure you go through creating an image target before you create it in code. This is because it gives you a better idea of how the process works, everything you need, and how the whole process goes down. [Creating an Image Target online through Vuforia](https://developer.vuforia.com/targetmanager/project/deviceTargetListing).  
+**You have to make sure you know the width of your target you're uploading.** This is *very* important for the app to be able to recognize the target and size/position everything correctly.  **The size is *always* in meters when working in Augmented Reality.** Even if you're in the Unity Editor or somewhere else, it will always defaultly be measured in meters. It's a standard for sizing.
+
+If you would like metadata on the Image Target you have to upload metadata as a `.txt`, you can parse purely as just a string, or in JSON format through the app.
+
+#### Creating an Image Target through code
+>**This will require a machine with Python 3 installed.**
+There is a python backend that was created to interact with Vuforia's Web Services API *only* for CloudRecos. It contains a lot of other features, but they're not as important as being able to create/update Image Targets in the database. (Which is what I bulit out, and used it for)
