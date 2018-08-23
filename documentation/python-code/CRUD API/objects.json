@@ -1,0 +1,37 @@
+{
+    
+    "ui" : "2D",
+    "type" : "list",
+    "x-pos" : -0.2,
+    "y-pos" : 0.026,
+    "z-pos" : 0.167,
+
+    "list-num" : 3,
+    "list-title" : "UPCOMING SHOWS",
+    "list-one-title" : "Animal Collective",
+    "list-one-subtitle" : "$35",
+    "list-one-detail" : "Wed, Jul 25, 8:00 PM",
+    "list-one-button-text" : "TICKETS",
+    "list-one-button-color" : "#DA2341",
+    "list-one-button-link" : "",
+    "list-two-title" : "Beach House",
+    "list-two-subtitle" : "$32.75",
+    "list-two-detail" : "Wed, Aug 15, 8:00 PM",
+    "list-two-button-text" : "SOLD OUT",
+    "list-two-button-color" : "#8EA6B4",
+    "list-two-button-link" : "",
+    "list-three-title" : "Courtney Barnett",
+    "list-three-subtitle" : "$30.75",
+    "list-three-detail" : "Sun, Sep 30, 8:00 PM",
+    "list-three-button-text" : "TICKETS",
+    "list-three-button-color" : "#DA2341",
+    "list-three-button-link" : "",
+
+    "content-title" : "Ogden Theatre",
+    "content-subtitle" : "ogdentheatre.com",
+    "content-detail-bold" : "7 min",
+    "content-detail-small" : "1.4 miles",
+    "content-preview" : "images/ogden_map.png",
+    "content-deep-link" : "https://maps.google.com"
+    
+}
