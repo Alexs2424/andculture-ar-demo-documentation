@@ -17,7 +17,7 @@ The AR Reader App is designed so that when it detects an Image Target (Image for
 ## Prefabs
 You must use them extensively throughout the entire process and these are how you get to several objects the user can choose to put overlay their user content.
 
-The list object is an example of a prefab. A prefab is a prefabricated object created in the UI, that you can reference in code. The prefab in this case is the UI, with a preset view with various list elements. You can set the text, colors, font, once you instantiate it into the view. Here's an example: *be sure to have the prefab in the resources folder* 
+The list object is an example of a prefab. A prefab is a prefabricated object created in the UI, that you can reference in code. The prefab in this case is the UI, with a preset view with various list elements. You can set the text, colors, font, once you instantiate it into the view.\ Here's an example: *be sure to have the prefab in the resources folder*\ 
 `GameObject object = (GameObject)Instantiate(Resources.Load("List"));`
 ^ The above code would create a new GameObject with the List prefab. 
 ![List Prefab Example](images/prefab.png)
