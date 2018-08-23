@@ -5,6 +5,7 @@ Table of Contents
 =================
 * [Mac Setup](#mac-setup)
 * [Setup](#)
+* [Python]()
 * [Troubleshooting](#troubleshooting)
 
 ## Mac Setup
@@ -26,6 +27,21 @@ Table of Contents
 6. Once you open the project, you want to correctly set which platform you are building for, go to File > Build Settings... &nbsp;&nbsp;&nbsp;&nbsp;**Default is PC, Mac, and Linux Standalone**
 ![Build Settings](images/build-settings.png) 
 7. Click the Switch Platform button for your desired development platform. *iOS requires a Mac with Xcode tools installed, and an [Apple Developer Organization (Team) Certificate](https://developer.apple.com/account/ios/certificate/).*
+
+# Python Code
+> The backend portion that I flushed out to prototype the development and get all aspects of the project working were built in Python 3 and the [Flask Python Framework](http://flask.pocoo.org/). It's really simple to get setup and running.
+
+### Installing/Running Python
+Python's version of npm is pip. Pip is super simple to use/install. You need pip installed so that you can have access to the Flask framework and install it locally.
+
+To install pip, go here.
+
+Once you have pip installed, then you install Flask for use in your local path. 
+1. Navigate to your project directory in your terminal.
+2. Run `pip install Flask` 
+3. Make sure you have all the project files in the CRUD API in the same path as they were in the documentation directory.
+4. Run `python ardemo.py` in your terminal.
+    - This will start a local host and server you the application api homepage. 
 
 
 ## Troubleshooting
