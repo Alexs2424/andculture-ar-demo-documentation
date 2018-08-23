@@ -34,13 +34,10 @@ Table Of Contents
 =================
 > Provides a hierarchy of the various documentation. The follow links will redirect to either a separate markdown file within the `documentation` directory of this project or to external referencial resources.
 * [Developer Machine Setup](documentation/developer-machine-setup.md)
+* [Design Patterns](documentation/design-patterns.md)
 * [Production Troubleshooting](documentation/production-troubleshooting.md)
 * [Source Control](documentation/source-control.md)
-* [Maintenance](documentation/maintenance.md)
-* [Development Workflow](documentation/development-workflow.md)
 * [Requirements](documentation/summary.md)
-* [Project Architecture](documentation/project-architecture.md)
-* [Design Patterns](documentation/design-patterns.md)
 * Slack Channels
   * lab-ar-platform - General project discussion.  All resources on project should be added to this channel. Needs permission from Alex Getty to be joined. 
 * External Resources
