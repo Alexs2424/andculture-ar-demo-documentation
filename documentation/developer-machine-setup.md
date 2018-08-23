@@ -34,14 +34,25 @@ Table of Contents
 ### Installing/Running Python
 Python's version of npm is pip. Pip is super simple to use/install. You need pip installed so that you can have access to the Flask framework and install it locally.
 
-To install pip, go here.
+[To install pip, go here.](https://pip.pypa.io/en/stable/installing/)
+Once you have pip installed, then you install Flask for use in your local path.
 
-Once you have pip installed, then you install Flask for use in your local path. 
+##### ardemo.py setup
 1. Navigate to your project directory in your terminal.
 2. Run `pip install Flask` 
 3. Make sure you have all the project files in the CRUD API in the same path as they were in the documentation directory.
 4. Run `python ardemo.py` in your terminal.
-    - This will start a local host and server you the application api homepage. 
+    - This will start a local host and the local server will serve you the application api homepage. 
+    - Under this local host the app can pull from the data model, and parse the data there. 
+    - Use this for testing until you come up with a better solution. 
+
+
+##### vuforia.py setup
+1. Navigate to its directory.
+2. Run `python vuforia.py`
+3. This will create image targets in the path specified in the code. (And however many you would like)
+    - feel free to experiment with how this code can create/use image targets. 
+    - using this program, we added 1,000 images all at once to stress test the service. It worked great! 
 
 
 ## Troubleshooting
